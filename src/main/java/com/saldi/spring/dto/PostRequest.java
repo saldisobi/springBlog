@@ -1,11 +1,8 @@
 package com.saldi.spring.dto;
 
-import javax.persistence.Entity;
-import javax.persistence.Table;
 
-@Entity
-@Table
-public class BlogRequest {
+
+public class PostRequest {
     private Long id;
     private String content;
     private String title;
